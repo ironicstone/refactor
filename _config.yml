@@ -1,0 +1,19 @@
+
+# 配置文件
+
+source: .
+destination: ./_site
+layouts: ./_layouts
+author: ironicstone
+email: fang.expressway@gmail.com
+baseurl: ""
+url: "http://ironicstone.github.io"
+
+
+# Google analytics
+google_analytics: 'UA-66108546-1'
+
+# markdown
+
+markdown: maruku
+markdown_ext: markdown,mkd,mkdn,md
