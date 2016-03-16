@@ -7,7 +7,7 @@ layouts: ./_layouts
 author: ironicstone
 email: fang.expressway@gmail.com
 baseurl: ""
-url: "http://ironicstone.github.io"
+url: "http://ironicstone.github.io/refactor"
 
 
 # Google analytics
