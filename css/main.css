@@ -44,7 +44,7 @@ header {
   border-left: solid 1px gray;
 }
 
-.header-wrap a:hover a::after {
+.header-wrap a:hover::after {
   content: "";
   position: absolute;
   display: none;
