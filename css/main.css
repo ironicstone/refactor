@@ -35,6 +35,7 @@ header {
 .header-wrap nav li a {
   display: block; /* 充满li元素 */
   text-decoration: none;
+  color: black;
   height: 40px;
   padding: 0 40px;
   margin-top: 20px;
