@@ -25,16 +25,18 @@ header {
 
 .header-wrap nav ul li {
   list-style-type: none;
-  float: right;
+  float: left;
 }
 
 .header-wrap nav li a {
   display: block; /* 充满li元素 */
   text-decoration: none;
+  height: 60px;
   padding: 0 20px;
-  border-right: solid 1px black;
+  margin-top: 10px;
+  border-right: solid 5px gray;
   font-size: 20px;'
   vertical-align: middle;
-  line-height: 80px;
+  line-height: 60px;
   boar
 }
