@@ -47,7 +47,6 @@ header {
 .header-wrap a:hover::after {
   content: "";
   position: absolute;
-  display: none;
   top: 100%;
   left: 0;
   width: 70px;
