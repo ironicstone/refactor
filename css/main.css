@@ -31,12 +31,14 @@ header {
 .header-wrap nav li a {
   display: block; /* 充满li元素 */
   text-decoration: none;
-  height: 60px;
+  height: 40px;
   padding: 0 20px;
-  margin-top: 10px;
-  border-right: solid 5px gray;
-  font-size: 20px;'
+  margin-top: 20px;
+  font-size: 15px;'
   vertical-align: middle;
-  line-height: 60px;
-  boar
+  line-height: 40px;
+}
+
+.header-wrap nav li + li a {
+  border-left: solid 3px gray;
 }
