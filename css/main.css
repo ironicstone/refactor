@@ -48,7 +48,8 @@ header {
   content: "";
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 70px;
   height: 3px;
   background-color: gray;
