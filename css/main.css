@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html,body {
+  font-family: arial, "microsoft yahei", sans-serif;
+}
+
 /* header */
 
 header {
