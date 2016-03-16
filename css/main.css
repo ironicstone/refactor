@@ -42,3 +42,10 @@ header {
 .header-wrap nav li + li a {
   border-left: solid 3px gray;
 }
+
+.header-wrap nav li:after {
+  content: "",
+  width:auto;
+  height: 5px;
+  background-color: gray;
+}
