@@ -27,11 +27,11 @@ header {
 
 .header-title {
   height: 100%;
+  float: left;
 }
 
 .header-title .site-title {
   display: block;
-  float: left;
   margin-left: 30px;
   line-height: 80px;
   vertical-align: middle;
@@ -43,10 +43,10 @@ header {
 .header-wrap nav {
   height: 100%;
   float: right;
-  display: inline-block;
 }
 
 .header-wrap nav ul li {
+  height: 100%;
   list-style-type: none;
   float: left;
 }
