@@ -37,6 +37,7 @@ header {
   font-size: 15px;'
   vertical-align: middle;
   line-height: 40px;
+  position: relative;
 }
 
 .header-wrap nav li + li a {
@@ -47,7 +48,7 @@ header {
   content: "";
   position: absolute;
   top: 100%;
-  width:70px;
+  width: 70px;
   height: 5px;
-  background-color: gray;
+  background-color: black;
 }
