@@ -29,7 +29,7 @@ header {
   height: 100%;
 }
 
-.header-title a {
+.header-title .site-title {
   display: block;
   float: left;
   margin-left: 30px;
