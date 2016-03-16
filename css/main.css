@@ -37,6 +37,8 @@ header {
   vertical-align: middle;
   font-size: 40px;
   color: gray;
+  font-weight: small;
+  text-decoration: none;
 }
 
 /* navigation */
