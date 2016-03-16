@@ -7,15 +7,15 @@
 /* header */
 
 header {
-  height: 60px;
+  height: 80px;
 }
 
 .header-wrap {
   width: 80%;
-  height: 60px;
+  height: 80px;
   position: relative;
   overflow: hidden;
-  margin: 10px auto;
+  margin: 20px auto;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
@@ -31,7 +31,10 @@ header {
 .header-wrap nav li a {
   display: block; /* 充满li元素 */
   text-decoration: none;
-  padding: 0 10px;
-  font-size: 25px;
-  line-height: 30px;
+  padding: 0 20px;
+  border-right: solid 1px black;
+  font-size: 20px;'
+  vertical-align: middle;
+  line-height: 80px;
+  boar
 }
