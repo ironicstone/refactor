@@ -40,6 +40,10 @@ header {
 }
 
 /* navigation */
+.header-wrap nav {
+  height: 100%;
+}
+
 .header-wrap nav ul {
   float: right;
 }
