@@ -46,6 +46,7 @@ header {
 
 .header-wrap nav ul {
   float: right;
+  display: inline-block;
 }
 
 .header-wrap nav ul li {
