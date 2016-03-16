@@ -43,8 +43,10 @@ header {
   border-left: solid 3px gray;
 }
 
-.header-wrap nav li a:after {
-  content: "",
+.header-wrap nav li a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
   width:70px;
   height: 5px;
   background-color: gray;
