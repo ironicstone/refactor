@@ -6,7 +6,7 @@ destination: ./_site
 layouts: ./_layouts
 author: ironicstone
 email: fang.expressway@gmail.com
-baseurl: ""
+baseurl: "http://ironicstone.github.io/refactor"
 url: "http://ironicstone.github.io/refactor"
 
 
