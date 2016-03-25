@@ -105,7 +105,7 @@ header {
 
 .main {
   width: 80%;
-  margin: 10px auto;
+  margin: 20px auto 30px;
   outline: 1px dashed gray;
   height: 600px;
 }
