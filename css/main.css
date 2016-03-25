@@ -43,6 +43,12 @@ header {
   text-decoration: none;
 }
 
+@media screen and (min-width: 765px) {
+  .header-title {
+    display: none;
+  }
+}
+
 /* navigation */
 .header-wrap nav {
   height: 100%;
