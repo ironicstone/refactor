@@ -1,6 +1,7 @@
 
 # 配置文件
 
+# 基本信息
 source: .
 destination: ./_site
 layouts: ./_layouts
@@ -10,10 +11,13 @@ baseurl: "http://ironicstone.github.io/refactor"
 url: "http://ironicstone.github.io/refactor"
 
 
-# Google analytics
+# Google统计
 google_analytics: 'UA-66108546-1'
 
-# markdown
+# markdown编辑器
 
 markdown: maruku
 markdown_ext: markdown,mkd,mkdn,md
+
+# 分页功能
+paginate: 10
