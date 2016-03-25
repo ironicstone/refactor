@@ -43,9 +43,15 @@ header {
   text-decoration: none;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (max-width: 765px) {
   .header-title {
     display: none;
+  }
+
+  .header-wrap nav {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
   }
 }
 
