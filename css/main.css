@@ -101,6 +101,16 @@ header {
   background-color: #CCCCCC;
 }
 
+/* Main */
+
+.main {
+  width: 80%;
+  margin: 10px auto;
+  outline: 1px dashed gray;
+  height: 600px;
+}
+
+
 /* Footer */
 
 footer {
@@ -109,7 +119,7 @@ footer {
 }
 
 footer p {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   color: #ccc;
 }
