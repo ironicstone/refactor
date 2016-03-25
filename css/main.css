@@ -121,7 +121,6 @@ header {
 /* Pagination */
 
 .pagination {
-  width: 80%;
   margin: 20px auto;
   overflow: hidden;
 }
@@ -143,12 +142,18 @@ header {
   text-align: center;
   line-height: 30px;
   font-size: 20px;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
+  border: 1px solid #f3f3f3;
+  transition: all 0.5s;
+}
+
+.pagination-item:hover {
+  background-color: #fff;
 }
 
 .disabled {
   opacity: 0.5;
-  cursor: disabled;
+  cursor: not-allowed;
 
 }
 
