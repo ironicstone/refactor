@@ -53,6 +53,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    min-width: 470px;
   }
 
   nav ul {
