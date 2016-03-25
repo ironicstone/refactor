@@ -47,17 +47,17 @@ header {
   .header-title {
     display: none;
   }
-
-  .header-wrap {
-    text-align: center;
-  }
-
   .header-wrap nav {
     width: 100%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+  }
+
+  nav ul {
     display: inline-block;
+    overflow: hidden;
   }
 }
 
