@@ -48,11 +48,16 @@ header {
     display: none;
   }
 
+  .header-wrap {
+    text-align: center;
+  }
+
   .header-wrap nav {
     width: 100%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    display: inline-block;
   }
 }
 
