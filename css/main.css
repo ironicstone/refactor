@@ -12,14 +12,14 @@ html,body {
 
 header {
   width: 100%;
-  height: 80px;
+  height: 60px;
   background-color: #F7F7F7;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
 .header-wrap {
   width: 80%;
-  height: 80px;
+  height: 60px;
   position: relative;
   margin: 0 auto;
   overflow: hidden;
@@ -35,7 +35,7 @@ header {
 .header-title .site-title {
   display: block;
   margin-left: 30px;
-  line-height: 80px;
+  line-height: 60px;
   vertical-align: middle;
   font-size: 30px;
   color: gray;
