@@ -69,7 +69,7 @@ header {
 }
 
 .header-wrap nav li + li a {
-  border-left: solid 1px gray;
+  border-left: solid 1px #CCCCCC;
 }
 
 .header-wrap a:hover::after {
