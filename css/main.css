@@ -49,9 +49,10 @@ header {
   }
 
   .header-wrap nav {
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
