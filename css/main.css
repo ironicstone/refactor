@@ -100,3 +100,15 @@ header {
   height: 3px;
   background-color: #CCCCCC;
 }
+
+/* Footer */
+
+.footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer p {
+  text-align: center;
+  color: #ccc;
+}
