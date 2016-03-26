@@ -16,7 +16,7 @@ google_analytics: 'UA-66108546-1'
 
 # markdown编辑器
 
-markdown: maruku
+markdown: kramdown
 markdown_ext: markdown,mkd,mkdn,md
 
 # 分页功能
