@@ -116,17 +116,15 @@ header {
 /* Main */
 
 .main {
-  width: 80%;
+  width: 85%;
   margin: 30px auto 30px;
-  outline: 1px dashed gray;
-  height: 600px;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
 /* Post */
 
 .post {
-  width: 80%;
+  width: 90%;
   margin: 50px auto;
 }
 
@@ -139,7 +137,7 @@ header {
 .post-meta {
   font-size: 1.6rem;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 20px;
   color: #818181;
 }
@@ -152,6 +150,16 @@ header {
 
 .post-content {
   font-size: 2rem;
+  line-height: 1.2;
+}
+
+.post-content ul {
+  margin-left: 2rem;
+  list-style-type: circle;
+}
+
+.post-content ul {
+  margin-left: 2rem;
 }
 
 pre, code {
