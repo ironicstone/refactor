@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 html,body {
   font-family: arial, "microsoft yahei", sans-serif;
 }
@@ -113,7 +117,7 @@ header {
 
 .main {
   width: 80%;
-  margin: 50px auto 30px;
+  margin: 30px auto 30px;
   outline: 1px dashed gray;
   height: 600px;
   box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
@@ -123,17 +127,24 @@ header {
 
 .post {
   width: 80%;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
-.post-title, .post-meta {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 5px;
+.post-title {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 4rem;
 }
 
 .post-meta {
-  font-size: 16px;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-top: 20px;
+  color: #818181;
+}
+
+.post-meta span {
+  padding: 0 10px;
 }
 
 
