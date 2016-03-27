@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 ## 这里是测试区域

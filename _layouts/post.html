@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% if page.categories[0] =='' %}
+{% assign category == page.categories %}
+{% endif %}
+{% if page.categories[0] !='' %}
+{% assign category == page.categories[0] %}
+{% endif %}
+
+<div class="post">
+  <div class="post-title">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <p class="post-meta">
+    <span><i class="fa fa-calendar"></i> {{ page.date | date: "%b %-d, %Y"}}</span>
+    <span><i class="fa fa-folder-open"></i>
+      {% if page.categories %}
+        <a href="/categories/#{{page.categories[0]}}">{{ page.categories[0] }}</a>
+      {% endif %}
+    </span>
+    <span><i class="fa fa-tags"></i>
+      {% for tag in page.tags %}
+        <a href="/tags/#{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+    </span>
+  </p>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</div>
