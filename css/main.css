@@ -150,7 +150,7 @@ header {
 
 .post-content {
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 130%;
 }
 
 .post-content ul {
@@ -158,7 +158,7 @@ header {
   list-style-type: circle;
 }
 
-.post-content ul {
+.post-content ol {
   margin-left: 2rem;
 }
 
