@@ -120,7 +120,7 @@ header {
   margin: 30px auto 30px;
   outline: 1px dashed gray;
   height: 600px;
-  box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 
 /* Post */
@@ -133,19 +133,70 @@ header {
 .post-title {
   margin: 20px auto;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .post-meta {
   font-size: 1.6rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
   color: #818181;
 }
 
 .post-meta span {
   padding: 0 10px;
 }
+
+/* Post Content */
+
+.post-content {
+  font-size: 2rem;
+}
+
+pre, code {
+  font-family: "Source Code Pro",monospace,"Microsoft YaHei"
+}
+
+code {
+  color: #7a7a7a;
+}
+
+pre {
+  padding: 1.125em;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  text-align: start;
+  margin-bottom: 0.88em;
+  white-space: pre-wrap;
+}
+
+.highlight .p {
+  font-size: 1.125rem;
+  line-height: 1;
+}
+
+blockquote {
+  padding: 15px 20px;
+  background-color: rgba(102,128,153,0.05);
+  border-left: 5px solid #558ABB;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+blockquote footer {
+  font-size: .85rem;
+  font-style: normal;
+  background-color: #fff;
+  color: #7a7a7a;
+  border-color: transparent;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+
 
 
 /* Pagination */
