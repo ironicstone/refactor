@@ -150,7 +150,11 @@ header {
 
 .post-content {
   font-size: 2rem;
-  line-height: 130%;
+  line-height: 150%;
+}
+
+h1,h2,h3,h4,h5 {
+  line-height: 200%;
 }
 
 .post-content ul {
@@ -172,7 +176,7 @@ code {
 
 pre {
   padding: 1.125em;
-  font-size: 1.125rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   text-align: start;
   margin-bottom: 0.88em;
